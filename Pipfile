@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-restful = "*"
+flask-sqlalchemy = "*"
+passlib = "*"
+flask-httpauth = "*"
+itsdangerous = "==2.0.1"
+pyjwt = "*"
+flask-migrate = "==2.7.0"
+flask-script = "*"
+flask = "==1.1.2"
+jinja2 = "*"
+flask-docs = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
